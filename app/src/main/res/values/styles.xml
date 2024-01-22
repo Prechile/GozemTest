@@ -1,0 +1,52 @@
+
+<resources>
+    <style name="textFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.TextInputEditText.FilledBox</item>
+
+        <item name="boxStrokeColor">@null</item>
+        <item name="boxBackgroundColor">#E5E5E5</item>
+        <item name="helperTextTextColor">@color/m3_textfield_indicator_text_color</item>
+        <item name="counterTextColor">@color/m3_textfield_indicator_text_color</item>
+        <item name="hintTextColor">@color/black</item>
+        <item name="android:textColorHint">@color/m3_textfield_label_color</item>
+        <item name="placeholderTextColor">@color/m3_textfield_indicator_text_color</item>
+        <item name="prefixTextColor">@color/m3_textfield_indicator_text_color</item>
+        <item name="suffixTextColor">@color/m3_textfield_indicator_text_color</item>
+        <item name="startIconTint">@color/m3_textfield_indicator_text_color</item>
+        <item name="endIconTint">@color/m3_textfield_indicator_text_color</item>
+
+
+        <item name="placeholderTextAppearance">@color/black</item>
+        <item name="prefixTextAppearance">?attr/textAppearanceTitleMedium</item>
+        <item name="suffixTextAppearance">?attr/textAppearanceTitleMedium</item>
+
+    </style>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+        <!--<item name="android:windowCloseOnTouchOutside">false</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground"> @android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+
+    </style>
+
+    <style name="Theme.D1NoTitleDim" parent="android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>
+
+
+

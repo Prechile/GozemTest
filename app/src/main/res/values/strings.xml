@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [        <!ENTITY appname "Gozem Test">        ]>
+
+<resources>
+    <string name="app_name">&appname;</string>
+
+    <string name="no_account">Pas encore de compte?</string>
+    <string name="create_account">Creer mon compte</string>
+
+    <string name="have_account">Si vous possedez deja un compte</string>
+    <string name="login">connecter vous</string>
+
+    <string name="fill_all_fields">Veuillez renseigner tous les champs</string>
+    <string name="invalid_login">Veuillez renseigner tous les champs</string>
+    <string name="is_not_connected">Vous n\'êtes pas connecté à internet</string>
+
+    <string name="fa_icon_search">\uf002</string>
+
+
+
+
+</resources>
